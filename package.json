@@ -6,13 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "synpress run --config baseUrl=http://localhost:3000 "
   },
   "dependencies": {
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
+    "ethers": "^5.7.2",
     "next": "13.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "wagmi": "^0.11.7"
+  },
+  "devDependencies": {
+    "@synthetixio/synpress": "^3.1.0"
   }
 }
